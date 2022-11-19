@@ -4,8 +4,8 @@ Step 1: Install Kubernetes Servers
 
 Launch 3 ubuntu 20.04  machines
 
-Server Type	            Server Hostname	     Specs
-Master	                k8s_master	         4GB Ram, 2vcpus
+Server Type	         Server Hostname	        Specs
+Master	                k8s_master	           4GB Ram, 2vcpus
 Worker	                k8s_node1	           4GB Ram, 2vcpus
 Worker	                k8s_node2	           4GB Ram, 2vcpus
 
