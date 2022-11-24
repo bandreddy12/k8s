@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: myjavaapp-container
-        image: ravidevops26/k8sapp:1
+        image: httpd
         ports:
         - containerPort: 8080
