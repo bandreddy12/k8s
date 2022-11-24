@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: myjavaapp-pod
-        image: ravidevops26/k8sapp:1
+        image: httpd
         ports:
-        - containerPort:  8080
+        - containerPort:  80
           protocol: TCP
