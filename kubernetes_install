@@ -13,8 +13,6 @@ sudo apt update
 
 sudo apt -y full-upgrade
 
-[ -f /var/run/reboot-required ] && sudo reboot -f (not required)
-
 Step 2: Install kubelet, kubeadm and kubectl
 
 sudo apt -y install curl apt-transport-https
