@@ -172,6 +172,8 @@ sudo kubeadm init \
         
 Step 7: Install network plugin on Master
 
+Link: https://docs.tigera.io/calico/3.25/getting-started/kubernetes/self-managed-onprem/onpremises
+
 kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.25.0/manifests/tigera-operator.yaml
 
 curl https://raw.githubusercontent.com/projectcalico/calico/v3.25.0/manifests/custom-resources.yaml -O
